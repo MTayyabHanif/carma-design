@@ -1,0 +1,250 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container{
+  justify-content: center;
+  margin-top: 70px;
+  padding-left: 90px;
+  padding-right: 90px;
+
+
+}
+.title{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+.subTitle{
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6D7175;
+  
+}
+.imageContainer{
+  padding-top: 22px;
+  border-radius: 10px;
+
+ 
+}
+.cover-image{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+
+  
+ 
+
+ 
+  
+  
+  
+}
+.content{
+  text-align: center;
+  color: #6D7175;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 20px;
+}
+.button{
+  text-align: center;
+  padding-top: 20px;
+}
+.footer{
+  color: #6D7175;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.logo{
+  width: 66px;
+  height: 79px;
+  text-align: center;
+  
+}
+.logo-container{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+.tree-card{
+  width: 100%;
+height: 80px;
+display: flex;
+padding-top: 10px;
+
+}
+.tr1{
+  border:1px solid ;
+  border-color: #00785B;
+  height: 63px;
+  width: 43vh;
+ 
+  margin-left: 10px;
+  border-radius: 4px 0px 0px 4px;
+  background-color:  rgba(0, 127, 96, 0.22);
+
+}
+.tr1t{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #007F60;
+  margin-top: 4px;
+  margin-left:30px
+}
+.tr2t{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color:#3A816F;
+  padding-top: 7px;
+  margin-left: 30px;
+}
+.tr2{
+  width: 43vh;
+  height: 63px;
+  background-color: rgba(0, 0, 0, 0.04);
+  border: 1px solid;
+  border-radius: 0px 4px 4px 0px;
+  
+}
+.tr1rt{
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+text-align: right;
+padding-right: 30px;
+padding-top: 4px;
+}
+.ptr2{
+  display: flex;
+  font-weight: 600;
+  justify-content: flex-end;
+  padding-right: 30px;
+  padding-top: 7px;
+}
+.qtr2{
+  font-weight: 100;
+  
+}
+.Polaris-Stack{
+  max-width: 90vh !important;
+  padding-left: 15px;
+}
+.Polaris-Text--truncate{
+  color: #6D7175 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.tpm{
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider{
+  border-top: 1px solid #b3b3b3;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.Polaris-Frame-ContextualSaveBar{
+  background-color: #f7f7f7 !important;
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+  height: 70px!important;
+  border-bottom: 1px solid ;
+  border-color: #b3b3b3;
+  box-shadow: none !important;
+}
+.Polaris-Frame-ContextualSaveBar .Polaris-Frame-ContextualSaveBar__Message{
+  color: #000 !important;
+  font-weight: 600 ;
+  font-size: 20px ;
+  
+}
+.Polaris-Layout{
+  flex-direction: column !important;
+  align-items: center !important;
+  
+}
+.Polaris-Layout__Section--oneHalf{
+  flex: 4 !important;
+  width: 701px !important
+}
+.Polaris-Heading{
+  padding-left: 16px;
+}
+/* .Polaris-Page--narrowWidth{
+  max-width: 68rem !important;
+} */
+.Polaris-Layout__Section--fullWidth{
+  text-align: center !important;
+}
+.Polaris-Text--bodyMd{
+  color: #6D7175;
+  font-weight: normal !important;
+  padding-top: 10px;
+}
+  /* .Polaris-Button--fullWidth{
+    width: 339px !important;
+  } */
+.Polaris-Button.Polaris-Button--pressed{
+  background-color: rgba(0, 127, 96, 0.22) !important;
+  border-color: #00785B !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.Polaris-Button--textAlignRight{
+  background-color: rgba(0, 0, 0, 0.04) !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+.Polaris-Button--textAlignLeft{
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+.switch-container{
+  flex: 1px;
+  flex-direction: row;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
