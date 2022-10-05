@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/carma-design/static/css/main.10535a1a.css",
+    "main.js": "/carma-design/static/js/main.daea5074.js",
+    "static/js/787.df5a07f8.chunk.js": "/carma-design/static/js/787.df5a07f8.chunk.js",
+    "index.html": "/carma-design/index.html",
+    "main.10535a1a.css.map": "/carma-design/static/css/main.10535a1a.css.map",
+    "main.daea5074.js.map": "/carma-design/static/js/main.daea5074.js.map",
+    "787.df5a07f8.chunk.js.map": "/carma-design/static/js/787.df5a07f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10535a1a.css",
+    "static/js/main.daea5074.js"
+  ]
+}
